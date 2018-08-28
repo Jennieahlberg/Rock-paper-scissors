@@ -8,13 +8,13 @@
   <div class="game">
     <div class="player">
       <div>
-        <img [disabled]="isDisabled" (click)="rock()" src="assets/img/rock.png" alt="">
+        <img [class.disabled]="isDisabled" (click)="rock()" src="assets/img/rock.png" alt="">
       </div>
       <div>
-        <img [disabled]="isDisabled" (click)="paper()" src="assets/img/paper.png" alt="">
+        <img [class.disabled]="isDisabled" (click)="paper()" src="assets/img/paper.png" alt="">
       </div>
       <div>
-        <img [disabled]="isDisabled" (click)="scissors()" src="assets/img/scissors.png" alt="">
+        <img [class.disabled]="isDisabled" (click)="scissors()" src="assets/img/scissors.png" alt="">
       </div>
     </div>
 
