@@ -24,6 +24,9 @@ export class AppComponent {
   isDisabled = false;
 
   rock() {
+    if(this.isDisabled){
+      return;
+    }
     if (this.random === 1) {
       this.computerChoiceRock = !this.computerChoiceRock;
       this.tie = !this.tie;
@@ -47,6 +50,9 @@ export class AppComponent {
   }
 
   paper() {
+    if(this.isDisabled){
+      return;
+    }
     if (this.random === 1) {
       this.computerChoiceRock = !this.computerChoiceRock;
       this.winner = !this.winner;
@@ -70,6 +76,9 @@ export class AppComponent {
   }
 
   scissors() {
+    if(this.isDisabled){
+      return;
+    }
     if (this.random === 1) {
       this.computerChoiceRock = !this.computerChoiceRock;
       this.loser = !this.loser;
@@ -90,7 +99,6 @@ export class AppComponent {
       this.start = false;
       this.isDisabled = true;
     }
-
   }
 
   restart() {
