@@ -1,1 +1,92 @@
 /* You can add global styles to this file, and also import other style files */
+
+div {
+    font-family: 'Work sans';
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.player {
+    margin-left: 100px;
+    padding-right: 100px;
+    border-right: dotted 5px black;
+}
+
+.computer {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#winner {
+    color: green;
+}
+
+#loser {
+    color: red;
+}
+
+#smallHeadline{
+    margin-bottom: 155px;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.button {
+    -moz-box-shadow: inset 0px 1px 0px 0px #276873;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #276873;
+    box-shadow: inset 0px 1px 0px 0px #276873;
+    background-color: #599bb3;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #29668f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+}
+
+.button:hover {
+    background-color: #408c99;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
